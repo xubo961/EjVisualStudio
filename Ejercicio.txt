@@ -1,0 +1,65 @@
+- Crear una clase prodcuto con atributos 
+(nombre, precio y cantidad). 
+Luego se ha de crear una clase principal (main) 
+que gestiona nuestra tienda. El programa deberá:
+    - Añadir productos en el inventario. 
+    - Mostrar todos los productos.
+    - Actualizar la cantidad y por aparte su precio 
+    de un prodcurto específico.
+    - Eliminar un producto del inventario
+     (Eliminar prdotucos intermedios. 
+     No puede ser el primero ni el ultimo).
+    - Caluclar el valor total del inventario 
+    (Suma de precio * cantidad de cada producto)
+     de todos los productos.
+Se han de usar ArrayLists.
+
+/////////Ejercicio 3/////////
+- Crear una clase Vehiculo con atributos velocidadMáxima
+y marca. Otras dos clases hijas: Coche y Bicicleta.
+Ambas clases tendrán un métoodo acelerar() que aumentará
+la velocidad actual. En la clase Coche, añade un atributo
+extra
+llamado capacidadCombustible y en la clase Bicicleta un 
+atributo llamado tipoBicicleta. El programa pedirá:
+- Crear instancias de Coche y Bicicleta.
+- Acelerar tanto el coche como la bicicleta.
+- Mostrar la información completa de cada vehículo.
+
+*********Ejercicio 4*********
+
+Crear una clase abstracta CuentaBancaria con atributos 
+como saldo y métodos abstractos como depositar() y 
+retirar().
+Luego se crearán dos clases hijas: CuentaCorriente y 
+CuentaAhorros. La CuentaCorriente tendrá un atributo 
+adicional envios
+y la CuentaAhorros tendrá un atributo interesAnual. 
+El programa debe:
+    - Permitir la creación de cuentas corrientes y 
+    cuentas de ahorros. 
+    - Realizar depositos y retiros de cuentas.
+    - Calcular el interes anual de la cuenta de
+     ahorros(1,59%) y permitir un maximo de envios en 
+     la CuentaCorriente.
+    - Mostrar la informacion completa de cada cuenta.
+
+
+··············Ejercicio 5 - Interfaz··············
+Crear una unterfaz llamada conectable con metodos 
+encender()  apagar().
+leugo crear dos calses telefono y ordenador que 
+implementen esta interfaz.
+-crear en archivo MAIN instancias de telefono y ordenador.
+-Encender y apaggar ambos dispositivos.
+
+***********ej 7***********
+Crear un programa, que reciba el nombre de un fichero, 
+si el fichero no existe lo crea. si existe debemos de 
+leerlo y contar de caracter las vocales de la 
+primera linea del archivo.
+Hay que mostrar en pantalla el resultado de la 
+ejecucion
+
+*****************Ej 8*******************
+Crearemos un archivo llamado 
